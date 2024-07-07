@@ -12,11 +12,14 @@
     "@next/font": "^14.2.4",
     "@splinetool/react-spline": "^3.1.0",
     "@splinetool/runtime": "^1.6.0",
+    "@tabler/icons-react": "^3.9.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.13",
+    "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
+    "tabler": "^1.0.0-alpha.8",
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
