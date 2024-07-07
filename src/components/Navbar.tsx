@@ -14,7 +14,7 @@ const Navbar = ({ className }: { className?: string }) => {
       )}
     >
       <Menu setActive={setActive}>
-        <Link href={"/"}>
+        <Link href={"/home"}>
           <MenuItem
             setActive={setActive}
             active={active}
