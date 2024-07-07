@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Macbook } from "@/components/MacBook";
 import ProjectsPage from "@/components/ProjectsPage";
 import AboutPage from "@/components/AboutPage";
+import ContactPage from "@/components/ContactPage";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +22,9 @@ export default function Home() {
         </div>
 
         <AboutPage />
+        <ContactPage />
+
+        <Footer />
       </main>
     </>
   );

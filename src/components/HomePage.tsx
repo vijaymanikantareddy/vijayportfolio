@@ -42,7 +42,9 @@ const HomePage = () => {
             A MERN Stack Web Developer | Knight Badge Holder in Leetcode
           </p>
         </div>
-        <div className="mt-10">
+        <div className="mt-10 flex justify-center">
+          {" "}
+          {/* Center the navigation links horizontally */}
           <Link
             href="#contact"
             className="bg-[#7B93FE] text-black hover:bg-[#899cf2] hover:duration-100 ease-in transition-all py-3 px-6 text-[16px] mr-2 rounded-lg font-bold"
@@ -50,21 +52,21 @@ const HomePage = () => {
             Get in touch
           </Link>
           <Link
-            href="#about"
+            href="https://drive.google.com/file/d/1guA4so_KZZXvxCs7nYHk4UuLxMnSFSek/view?usp=sharing"
             className="bg-black border border-[#413d3d] hover:bg-[#161616] hover:duration-100 ease-in transition-all py-3 px-6 text-[16px] mr-2 rounded-lg font-bold"
           >
-            Know More
+            Download Resume
           </Link>
         </div>
       </div>
       <div
         data-scroll
         data-scroll-speed="-.01"
-        className="mt-14 mx-4 xl:mt-0 canvas-container border border-[#413d3d] rounded-3xl h-[515px] xl:w-[690px] xl:min-w-[690px] overflow-hidden cursor-grabbing"
+        className="mt-14 mx-4 xl:mt-0 canvas-container border border-[#413d3d] rounded-3xl h-[515px] xl:w-[690px] xl:min-w-[690px] overflow-hidden "
       >
-        <Suspense fallback={<span>Loading...</span>}>
+        {/* <Suspense fallback={<span>Loading...</span>}>
           <Spline scene="/assets/scene.splinecode" />
-        </Suspense>
+        </Suspense> */}
       </div>
     </section>
   );
