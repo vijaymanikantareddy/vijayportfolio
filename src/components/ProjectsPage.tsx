@@ -14,7 +14,7 @@ const projects = [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, ipsa accusamus! At natus recusandae adipisci asperiores architecto quis officiis,",
     github: "https://github.com/vijaymanikantareddy",
-    live:  "https://github.com/vijaymanikantareddy",
+    live: "https://github.com/vijaymanikantareddy",
   },
   {
     title: "Project 2",
@@ -23,7 +23,7 @@ const projects = [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, ipsa accusamus! At natus recusandae adipisci asperiores architecto quis officiis,",
     github: "https://github.com/vijaymanikantareddy",
-    live:  "https://github.com/vijaymanikantareddy",
+    live: "https://github.com/vijaymanikantareddy",
   },
   {
     title: "Project 3",
@@ -32,16 +32,18 @@ const projects = [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, ipsa accusamus! At natus recusandae adipisci asperiores architecto quis officiis,",
     github: "https://github.com/vijaymanikantareddy",
-    live:  "https://github.com/vijaymanikantareddy",
+    live: "https://github.com/vijaymanikantareddy",
   },
 ];
 
 const ProjectsPage = () => {
   return (
-    <>
-      <div className="text-center mt-32 dark:text-white text-neutral-800 text-3xl font-bold">
-         Projects
+    <div className="relative">
+      <div className="text-center mt-32 dark:text-white text-neutral-800 text-[2.5rem] font-bold">
+        Projects
       </div>
+      <div className="absolute z-[0] w-[40%] h-[35%] top-0 left-0 blue__gradient" />
+      <div className="absolute z-[0] w-[40%] h-[35%] bottom-0 right-0 blue__gradient" />
       <div className="flex flex-wrap justify-center mt-20">
         {projects.map((project, index) => (
           <ProjectCard
@@ -55,7 +57,7 @@ const ProjectsPage = () => {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

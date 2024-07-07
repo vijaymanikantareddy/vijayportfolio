@@ -2,6 +2,7 @@ import HomePage from "@/components/HomePage";
 import Image from "next/image";
 import { Macbook } from "@/components/MacBook";
 import ProjectsPage from "@/components/ProjectsPage";
+import AboutPage from "@/components/AboutPage";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <div id="projects">
           <ProjectsPage />
         </div>
+
+        <AboutPage />
       </main>
     </>
   );
