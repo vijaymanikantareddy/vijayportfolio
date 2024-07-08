@@ -11,7 +11,8 @@ export function Macbook() {
         showGradient={false}
         title={
           <span>
-            Explore the Creative and Technical Projects <br /> I&apos;ve Crafted.
+            Explore the Creative and Technical Projects <br /> I&apos;ve
+            Crafted.
           </span>
         }
       />

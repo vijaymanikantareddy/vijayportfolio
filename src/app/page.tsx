@@ -5,6 +5,7 @@ import ProjectsPage from "@/components/ProjectsPage";
 import AboutPage from "@/components/AboutPage";
 import ContactPage from "@/components/ContactPage";
 import { Footer } from "@/components/Footer";
+import Profiles from "@/components/Profiles";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <AboutPage />
         <ContactPage />
 
+        <Profiles />
         <Footer />
       </main>
     </>
