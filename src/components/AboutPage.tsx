@@ -65,10 +65,11 @@ const AboutPage = () => {
               ✨ Sathi Vijay Manikanta Reddy
             </span>
             <br />
-            <br /> <span className="font-bold text-purple-300">
+            <br /> 
+            {/* <span className="font-bold text-purple-300">
               Currently:
             </span>{" "}
-            Final Year Engineering Student <br />
+            Final Year Engineering Student <br /> */}
             <br />
             <span className="font-bold text-purple-300">Branch:</span>{" "}
             Information Technology <br />
