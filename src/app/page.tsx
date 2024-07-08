@@ -21,11 +21,11 @@ export default function Home() {
         <div id="projects">
           <ProjectsPage />
         </div>
+        <Profiles />
 
         <AboutPage />
         <ContactPage />
 
-        <Profiles />
         <Footer />
       </main>
     </>
