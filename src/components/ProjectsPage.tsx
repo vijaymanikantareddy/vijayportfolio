@@ -24,7 +24,7 @@ const projects = [
 		description:
 			"Developed a web application for efficient infrastructure issue management. Users can submit complaints, track their status, while admin can assign and manage them.",
 		github: "https://github.com/vijaymanikantareddy",
-		// live: "https://github.com/vijaymanikantareddy",
+		live: "",
 	},
 	{
 		title: "Voting Application",
@@ -33,7 +33,7 @@ const projects = [
 		description:
 			"Developed a system for efficient project management, including data input, voting management, and team monitoring. Ensured data integrity and transparent communication.",
 		github: "https://github.com/vijaymanikantareddy",
-		// live: "https://github.com/vijaymanikantareddy",
+		live: "",
 	},
 	{
 		title: "Landing Page",
