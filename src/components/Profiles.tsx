@@ -12,7 +12,7 @@ function Profiles() {
     <>
       <div
         className="text-center dark:text-white text-neutral-800 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-8 md:mt-24"
-        id="coding"
+        id="profiles"
       >
         👨🏻‍💻 Coding Profiles 🧠
       </div>
