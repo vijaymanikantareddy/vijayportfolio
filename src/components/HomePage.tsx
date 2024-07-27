@@ -43,7 +43,6 @@ const HomePage = () => {
           </p>
         </div>
         <div className="mt-10 flex justify-center">
-          {" "}
           {/* Center the navigation links horizontally */}
           <Link
             href="#contact"

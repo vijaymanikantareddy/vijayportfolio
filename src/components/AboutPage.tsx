@@ -5,7 +5,7 @@ import javascriptLogo from "../../public/assets/javascript.png";
 import tailwindLogo from "../../public/assets/tailwind.png";
 import nodejsLogo from "../../public/assets/nodejs.png";
 import expressLogo from "../../public/assets/express.png";
-import restapiLogo from "../../public/assets/restapi.png";
+import javalogo from "../../public/assets/javalogo.png";
 import mongodbLogo from "../../public/assets/mongodb.png";
 import mongooseLogo from "../../public/assets/mongoose.png";
 import nextjsLogo from "../../public/assets/nextjs.png";
@@ -42,20 +42,21 @@ const AboutPage = () => {
           <br />
           <br />
           <div className="flex w-full flex-wrap mt-8">
+          <TechStackButton title="Java" logo={javalogo} />
+            <TechStackButton title="C++" logo={cppLogo} />
+            <TechStackButton title="HTML5" logo={htmlLogo} />
+            <TechStackButton title="CSS3" logo={cssLogo} />
             <TechStackButton title="React.Js" logo={reactLogo} />
             <TechStackButton title="JavaScript" logo={javascriptLogo} />
             <TechStackButton title="TailwindCSS" logo={tailwindLogo} />
             <TechStackButton title="Node.Js" logo={nodejsLogo} />
             <TechStackButton title="Express.js" logo={expressLogo} />
-            <TechStackButton title="REST APIs" logo={restapiLogo} />
             <TechStackButton title="MongoDB" logo={mongodbLogo} />
             {/* <TechStackButton title="Mongoose" logo={mongooseLogo} /> */}
             <TechStackButton title="Next.js" logo={nextjsLogo} />
             <TechStackButton title="TypeScript" logo={typescriptLogo} />
             {/* <TechStackButton title="Material-UI" logo={materialuiLogo} /> */}
-            <TechStackButton title="C++" logo={cppLogo} />
-            <TechStackButton title="HTML5" logo={htmlLogo} />
-            <TechStackButton title="CSS3" logo={cssLogo} />
+            
           </div>
           <br />
           <br />

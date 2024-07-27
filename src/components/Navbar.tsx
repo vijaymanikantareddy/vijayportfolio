@@ -19,7 +19,12 @@ const Navbar = ({ className }: { className?: string }) => {
           ></MenuItem>
         </Link>
         <Link href={"#projects"}>
-          <MenuItem setActive={setActive} active={active} item="Projects">
+        <MenuItem
+            setActive={setActive}
+            active={active}
+            item="Projects"
+          ></MenuItem>
+          {/* <MenuItem setActive={setActive} active={active} item="Projects">
             <div className="flex flex-col space-y-4 text-sm">
               <HoveredLink href="#project1">Project 1</HoveredLink>
               <HoveredLink href="#project2">Project 2</HoveredLink>
@@ -28,16 +33,21 @@ const Navbar = ({ className }: { className?: string }) => {
               <HoveredLink href="#project5">Project 5</HoveredLink>
               <HoveredLink href="#project6">Project 6</HoveredLink>
             </div>
-          </MenuItem>
+          </MenuItem> */}
         </Link>
         <Link href={"#about"}>
-          <MenuItem setActive={setActive} active={active} item="About">
+        <MenuItem
+            setActive={setActive}
+            active={active}
+            item="About"
+          ></MenuItem>
+          {/* <MenuItem setActive={setActive} active={active} item="About">
             <div className="flex flex-col space-y-4 text-sm">
               <HoveredLink href="#about1">About 1</HoveredLink>
               <HoveredLink href="#about2">About 2</HoveredLink>
               <HoveredLink href="#about3">About 3</HoveredLink>
             </div>
-          </MenuItem>
+          </MenuItem> */}
         </Link>
         <Link href={"#contact"}>
           <MenuItem setActive={setActive} active={active} item="Contact">
@@ -45,7 +55,7 @@ const Navbar = ({ className }: { className?: string }) => {
               <HoveredLink href="mailto:svmreddy7799@gmail.com">
                 Email
               </HoveredLink>
-              <HoveredLink href="https://www.linkedin.com/in/vijay-manikanta-reddy-sathi-22b90a20a/">
+              <HoveredLink href="https://www.linkedin.com/in/vijaymanikantareddy/">
                 LinkedIn
               </HoveredLink>
               <HoveredLink href="https://www.instagram.com/vijay_square">
