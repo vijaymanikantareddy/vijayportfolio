@@ -51,7 +51,7 @@ const HomePage = () => {
             Get in touch
           </Link>
           <Link
-            href="https://drive.google.com/uc?export=download&id=1guA4so_KZZXvxCs7nYHk4UuLxMnSFSek"
+            href="https://drive.google.com/uc?export=download&id=1qKwNsNzfD1GQ1HtGr_iih1atCqZg8MMI"
             className="bg-black border border-[#413d3d] hover:bg-[#161616] hover:duration-100 ease-in transition-all py-3 px-6 text-[16px] mr-2 rounded-lg font-bold"
           >
             Download Resume
